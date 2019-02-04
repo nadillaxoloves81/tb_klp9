@@ -1,0 +1,180 @@
+@font-face {
+	font-family: '3Dumb';
+	src: url(../fonts/3dumb/3Dumb.ttf) format('truetype');
+}
+
+body {
+	max-width: 100%;
+	background-color: rgb(255,201,201);
+}
+
+#navigasi {
+	background-color: #8E001B;
+}
+
+.carousel-caption .title{
+	font-size: 80px;
+	font-family: pristina;
+	color: white;
+	text-shadow: 2px 2px 2px rgba(0,0,0,.7);
+}
+
+.titles {
+	width: 700px;
+	background-color: rgba(0,0,0,0.5);
+	padding: 20px;
+	margin-left: 60px;
+}
+
+.carousel-caption .title2 {
+	font-size: 60px;
+	font-family: pristina;
+	text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+}
+
+.carousel-caption .nama p{
+	font-size: 40px;
+	font-family: pristina;
+	text-shadow: 2px 2px 2px rgba(0,0,0,.7);
+}
+
+.nama p {
+	font-family: '3Dumb';
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#desc {
+	margin-bottom: 75px;
+}
+
+.descriptiontitle {
+	text-align: center;
+	color: #8E001B; 
+	font-family: Bernard MT Condensed; 
+	font-size: 40px;
+	margin-top: 70px;
+}
+
+.caption3 {
+	width: 500px;
+	background-color: rgba(142,0,27,.3);
+	margin: auto;
+	padding: 20px;
+	margin-top: 70px;
+	font-size: 30px;
+}
+
+.explain {
+	color: #8E001B;
+	width: 65%;
+	margin: auto;
+	font-size: 16px;
+	text-align: justify;
+}
+
+.explain img {
+	float: left;
+	width: 370px;
+}
+
+#tombol {
+	margin-right: 5px;
+	background-color: #8E001B;
+	width: 150px;
+}
+
+#tombol:hover {
+	background-color: #4D0000;
+}
+
+#modalHeader {
+	background-color: #8E001B;
+	font-size: 50px;
+	font-family: Bernard MT Condensed;
+	text-align: center;
+	color: white;
+}
+
+#modalBody {
+	height: 350px; 
+	color: #8E001B;
+	font-size: 17px;
+	text-align: justify;
+}
+
+.about {
+	height: 450px; 
+	background-image: url(../pict/carousel/4.jpg); 
+	background-size: cover; 
+	margin-top: 20px; 
+	border-top: 5px solid #8E001B;
+}
+
+.profile {
+	height: 250px; 
+	width: 21%; 
+	background-color: rgba(0,0,0,.6); 
+	margin-bottom: 5px; 
+	float: left;
+	margin: 30px 10px;
+	padding: 10px;
+}
+
+
+.desc {
+	background-color: rgba(0,0,0,.6);
+	width: 100%;
+	height: 50%;
+	position: relative;
+	top: 115px;
+	padding: 15px;
+}
+
+.desc2 {
+	width: 100%;
+	height: 100%;
+	padding: 8px;
+	background-color: rgba(0,0,0,.45);
+	box-sizing: border-box;
+
+}
+
+.desc2 p {
+	color: white;
+	font-size: 12px;
+	font-family: helvetica;
+}
+
+.profileimg {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+.copy {
+	background-color: #8E001B;
+	width: 105%;
+	height: 150px;
+	margin: auto;
+	margin-left: -20px;
+}
+
+.copy p {
+	font-size: 12px;
+	color: white;
+	margin-left: -20px;
+}
+
+.copy a {
+	color: #FFE4E4;
+	margin-left: 40px;
+	margin-top: 60px;
+	text-decoration: none;
+	font-size: 17px;
+
+}
+
+.copy a:hover {
+	color: black;
+}
